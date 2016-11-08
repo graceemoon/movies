@@ -1,7 +1,7 @@
 {
   "name": "movies",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Change all instances where you find the following comment `-- UPDATE THIS PATH WITH YOUR OWN!` - Update it with your own ABSOLUTE path to the `migration.sql` file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
     "express": "^4.14.0",
     "path": "^0.12.7",
     "pg-promise": "^5.3.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graceemoon/movies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/graceemoon/movies/issues"
+  },
+  "homepage": "https://github.com/graceemoon/movies#readme"
 }
